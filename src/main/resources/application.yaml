@@ -4,6 +4,7 @@ spring:
     type: jcache
     jcache:
       provider: com.hazelcast.cache.impl.HazelcastServerCachingProvider
+      config: classpath:hazelcast.xml
     cache-names:
       - buckets
 

@@ -4,6 +4,8 @@
            xsi:schemaLocation="http://www.hazelcast.com/schema/config
            http://www.hazelcast.com/schema/config/hazelcast-config-5.4.xsd">
 
+    <instance-name>hazelcast-1</instance-name> <!-- Set the instance name here -->
+
     <cluster-name>rate-limiting-cluster</cluster-name>
     <network>
         <port port-count="100" auto-increment="true">5701</port>
